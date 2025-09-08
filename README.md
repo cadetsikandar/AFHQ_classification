@@ -110,7 +110,7 @@ jupyter notebook notebooks/AFHQ_classification.ipynb
 
 
 
-📌 Future Work
+###📌 Future Work
 
 Compare with pretrained ResNet18 (transfer learning).
 
