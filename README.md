@@ -85,32 +85,7 @@ Output: Class probabilities
 
 ---
 
-### 🔹 Learning Curves
-*(insert accuracy & loss curves plot here)*  
-
----
-
-### 🔹 Example Predictions
-*(insert 6–9 images with predicted vs actual labels)*  
-
----
-
-## 🚀 How to Run
-
-### 1. Clone repository
-```bash
-https://github.com/cadetsikandar/AFHQ_classification.git
-cd AFHQ_classification
-
-2. Install dependencies
-pip install -r requirements.txt
-
-3. Run Jupyter Notebook
-jupyter notebook notebooks/AFHQ_classification.ipynb
-
-
-
-###📌 Future Work
+📌 Future Work
 
 Compare with pretrained ResNet18 (transfer learning).
 
@@ -135,3 +110,16 @@ Best Practices → clean repo, requirements.txt, README, .gitignore.
 AFHQ Dataset
 
 PyTorch
+
+## 🚀 How to Run
+
+### 1. Clone repository
+```bash
+https://github.com/cadetsikandar/AFHQ_classification.git
+cd AFHQ_classification
+
+2. Install dependencies
+pip install -r requirements.txt
+
+3. Run Jupyter Notebook
+jupyter notebook notebooks/AFHQ_classification.ipynb
