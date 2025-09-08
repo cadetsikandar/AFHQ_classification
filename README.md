@@ -9,17 +9,27 @@ Unlike transfer learning with ResNet or EfficientNet, this project implements a 
 
 ## 📂 Project Structure
 afhq-animal-faces/
+
 │
+
 ├── notebooks/
-│ └── AFHQ_classification.ipynb # training & evaluation notebook
+
+│ 
+└── AFHQ_classification.ipynb # training & evaluation notebook
 │
+
 ├── models/
-│ └── best_model.pth # trained weights
+│ 
+└── best_model.pth # trained weights
 │
+
 ├── data/ # dataset (not uploaded)
 │
+
 ├── requirements.txt # dependencies
+
 ├── README.md # documentation
+
 └── .gitignore # ignored files/folders
 
 
@@ -39,12 +49,19 @@ afhq-animal-faces/
 ## 🧠 Model Architecture
 Input (3x128x128)
 └── Conv2d(3 → 32) + BatchNorm + ReLU + MaxPool
+
 └── Conv2d(32 → 64) + BatchNorm + ReLU + MaxPool
+
 └── Conv2d(64 → 128) + BatchNorm + ReLU + MaxPool
+
 └── Global Average Pooling (AdaptiveAvgPool2d)
+
 └── Flatten → Dropout(0.5)
+
 └── Linear(128 → 128) + ReLU
+
 └── Linear(128 → 3) # Cat / Dog / Wildlife
+
 Output: Class probabilities
 
 
@@ -82,14 +99,16 @@ Output: Class probabilities
 
 ### 1. Clone repository
 ```bash
-git clone https://github.com/YOUR-USERNAME/afhq-animal-faces.git
-cd afhq-animal-faces
+https://github.com/cadetsikandar/AFHQ_classification.git
+cd AFHQ_classification
 
 2. Install dependencies
 pip install -r requirements.txt
 
 3. Run Jupyter Notebook
 jupyter notebook notebooks/AFHQ_classification.ipynb
+
+
 
 📌 Future Work
 
